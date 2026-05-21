@@ -1,0 +1,12 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["HF4N9F3P5Q.com.fittmatch.app"],
+        "components": [
+          { "/": "/callback*" }
+        ]
+      }
+    ]
+  }
+}
