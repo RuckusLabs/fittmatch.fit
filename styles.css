@@ -85,13 +85,18 @@ p { color: var(--ink2); }
   font-weight: 600;
   cursor: pointer;
   border: none;
-  transition: opacity 0.15s, transform 0.15s;
+  transition: background-color 0.15s, transform 0.15s;
   white-space: nowrap;
 }
-.btn:hover { opacity: 0.88; transform: translateY(-1px); }
-.btn:active { transform: translateY(0); opacity: 1; }
+.btn:hover { transform: translateY(-1px); }
+.btn:active { transform: translateY(0); }
+.btn:focus-visible, .app-store-btn:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 4px;
+}
 
 .btn-primary { background: var(--accent); color: var(--white); }
+.btn-primary:hover { background: #AD3B22; }
 .btn-ghost {
   background: transparent;
   color: var(--ink);
@@ -132,13 +137,13 @@ p { color: var(--ink2); }
   list-style: none;
 }
 
-.nav-links a {
+.nav-links a:not(.btn) {
   font-size: 0.9375rem;
   font-weight: 500;
   color: var(--ink2);
   transition: color 0.15s;
 }
-.nav-links a:hover { color: var(--accent); }
+.nav-links a:not(.btn):hover { color: var(--accent); }
 
 .nav-cta { margin-left: 8px; }
 
@@ -169,7 +174,7 @@ p { color: var(--ink2); }
   padding: 8px 0 16px;
 }
 .mobile-nav.open { display: flex; }
-.mobile-nav a {
+.mobile-nav a:not(.btn) {
   padding: 12px 24px;
   font-size: 1rem;
   font-weight: 500;
