@@ -1,0 +1,11 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const { sharedTarget } = require('./share-link.js');
+const id = '12345678-1234-1234-1234-123456789abc';
+for (const type of ['coach', 'client', 'job']) assert.deepEqual(sharedTarget('/p/' + type + '/' + id), {type, id});
+for (const path of ['/p/admin/' + id, '/p/coach/<script>', '/p/coach/' + id + '/extra', '/p/coach/../../', '/']) assert.equal(sharedTarget(path), null);
+const a = JSON.parse(fs.readFileSync('.well-known/apple-app-site-association'));
+assert(a.applinks.details[0].components.some(c => c['/'] === '/p/*'));
+assert(a.applinks.details[0].appIDs.includes('HF4N9F3P5Q.com.fittmatch.app'));
+assert(fs.readFileSync('404.html','utf8').includes('/share-link.js'));
+console.log('PASS: three shared destinations, invalid-route rejection, native association and fallback assets');
