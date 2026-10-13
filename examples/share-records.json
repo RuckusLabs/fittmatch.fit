@@ -1,0 +1,171 @@
+[
+  {
+    "type": "coach",
+    "identifier": "rachel-green-1001",
+    "example": true,
+    "data": {
+      "profiles": {
+        "full_name": "Rachel Green",
+        "city": "Austin, Texas",
+        "open_to_offers": true
+      },
+      "title": "Strength & Powerlifting Coach",
+      "experience_band": "6–10 years",
+      "certs": [
+        "NSCA–CSCS",
+        "NASM–CPT"
+      ],
+      "is_complete": true,
+      "photo_url": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1000&q=80",
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1000&q=80",
+          "caption": "Sample strength training space"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1000&q=80",
+          "caption": "Sample training session"
+        }
+      ],
+      "bio": "I help people get stronger with confidence. My coaching blends thoughtful programming, solid technique, and encouragement when the last rep feels impossible.\n\nI am looking for a team that values community as much as performance.",
+      "specialties": [
+        "Strength training",
+        "Powerlifting",
+        "Barbell technique",
+        "Small group training"
+      ],
+      "other_credentials": [
+        "USA Powerlifting coaching education"
+      ],
+      "verified_certs": [
+        "NSCA–CSCS"
+      ],
+      "availability": {
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri"
+        ],
+        "times": [
+          "AM",
+          "PM"
+        ]
+      },
+      "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+      "rating_avg": 5,
+      "rating_count": 1,
+      "reviews": [
+        {
+          "rating": 5,
+          "body": "Thoughtful programming and a supportive coaching style.",
+          "reviewer_name": "Sample studio review",
+          "created_at": "2026-10-01T12:00:00Z"
+        }
+      ]
+    }
+  },
+  {
+    "type": "job",
+    "identifier": "00000000-0000-4000-8000-000000000201",
+    "example": true,
+    "data": {
+      "title": "Strength Coach",
+      "client_profiles": {
+        "company_name": "Eastside Strength Studio",
+        "company_type": "Strength & conditioning studio",
+        "bio": "A neighborhood studio with a thoughtful, community-first approach.",
+        "photos": [
+          {
+            "url": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1000&q=80",
+            "caption": "Sample strength training space"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1000&q=80",
+            "caption": "Sample training session"
+          }
+        ]
+      },
+      "city": "Austin, Texas",
+      "pay_min": 35,
+      "pay_max": 50,
+      "pay_type": "hourly",
+      "role_type": "Part-time",
+      "status": "live",
+      "description": "Help members build confidence and strength through personal coaching and small group sessions.\n\nLead technique sessions, develop training plans, and collaborate with our coaching team.",
+      "days": [
+        "Mon",
+        "Wed",
+        "Fri"
+      ],
+      "time_window": "AM",
+      "required_certs": [
+        "NASM–CPT or equivalent",
+        "CPR / AED"
+      ],
+      "perks": [
+        "Professional development",
+        "Studio membership"
+      ],
+      "location_text": "East Austin",
+      "extra_cities": [
+        {
+          "city": "Round Rock, Texas"
+        }
+      ]
+    }
+  },
+  {
+    "type": "client",
+    "identifier": "eastside-strength-studio-1002",
+    "example": true,
+    "data": {
+      "company_name": "Eastside Strength Studio",
+      "company_type": "Strength & conditioning studio",
+      "profiles": {
+        "city": "Austin, Texas"
+      },
+      "is_complete": true,
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1000&q=80",
+          "caption": "Sample strength training space"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1000&q=80",
+          "caption": "Sample training session"
+        }
+      ],
+      "bio": "A welcoming neighborhood studio built around thoughtful coaching, strength training, and community.\n\nOur team supports beginners and experienced lifters through personal training and small group sessions.",
+      "team_size_band": "5–10 coaches",
+      "extra_cities": [
+        {
+          "city": "Round Rock, Texas"
+        }
+      ],
+      "rating_avg": 5,
+      "rating_count": 1,
+      "reviews": [
+        {
+          "rating": 5,
+          "body": "A welcoming team and an excellent training environment.",
+          "reviewer_name": "Sample coach review",
+          "created_at": "2026-10-01T12:00:00Z"
+        }
+      ],
+      "jobs": [
+        {
+          "id": "00000000-0000-4000-8000-000000000201",
+          "title": "Strength Coach",
+          "city": "Austin, Texas",
+          "pay_min": 35,
+          "pay_max": 50,
+          "pay_type": "hourly",
+          "role_type": "Part-time",
+          "status": "live"
+        }
+      ]
+    }
+  }
+]
