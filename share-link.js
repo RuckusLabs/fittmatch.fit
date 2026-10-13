@@ -1,11 +1,16 @@
 /* Public links contain no profile data. Use the native viewer for the requested entity. */
-function sharedTarget(path) {
-  const match = /^\/p\/(coach|client|job)\/([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\/?$/i.exec(path);
-  return match ? { type: match[1].toLowerCase(), id: match[2].toLowerCase() } : null;
+function sharedTarget(path, search = '') {
+  const landing = /^\/p\/(coach|client|job)\/?$/.exec(path);
+  const legacy = /^\/p\/(coach|client|job)\/([^/]+)\/?$/.exec(path);
+  const type = landing?.[1] || legacy?.[1];
+  const id = landing ? new URLSearchParams(search).get('id') : legacy?.[2];
+  const uuid = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+  const slug = /^[a-z0-9]+(?:-[a-z0-9]+)*-[1-9][0-9]*$/;
+  return type && id && id.length <= 80 && (uuid.test(id) || (type !== 'job' && slug.test(id))) ? { type, id } : null;
 }
 if (typeof module !== 'undefined') module.exports = { sharedTarget };
 if (typeof document !== 'undefined') document.addEventListener('DOMContentLoaded', function () {
-  const target = sharedTarget(window.location.pathname);
+  const target = sharedTarget(window.location.pathname, window.location.search);
   const callback = window.location.pathname === '/callback';
   const title = document.getElementById('share-title');
   const detail = document.getElementById('share-detail');
@@ -17,7 +22,7 @@ if (typeof document !== 'undefined') document.addEventListener('DOMContentLoaded
     open.href = 'fittmatch:///p/' + target.type + '/' + target.id;
     open.hidden = false;
     recovery.hidden = false;
-    const url = 'https://fittmatch.fit/p/' + target.type + '/' + target.id;
+    const url = 'https://fittmatch.fit/p/' + target.type + '/?id=' + encodeURIComponent(target.id);
     const field = document.getElementById('saved-link');
     field.value = url;
     document.getElementById('copy-link').addEventListener('click', async function () {

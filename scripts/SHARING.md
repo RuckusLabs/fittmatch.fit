@@ -1,3 +1,31 @@
+# GitHub Pages sharing strategy
+
+Production sharing uses three static landing pages: `/p/coach/?id=<identifier>`,
+`/p/client/?id=<identifier>`, and `/p/job/?id=<uuid>`. Each includes its own initial
+Open Graph/Twitter metadata and generic 1200×630 photo-based JPEG. Query parameters
+preserve the target for the app; no per-profile pages, personal data, or live server
+are required. Coach/client identifiers remain unique stored name-number slugs.
+
+`share-link.js` validates the query and builds the existing `fittmatch:///p/type/id`
+app destination. The app adds an index route for the new Universal Link format,
+then uses its existing visibility-gated resolver. The AASA `/p/*` association is
+unchanged. Admin links use the same format. These app/admin changes need release
+alongside the site. Opt-outs expose no personal details in the generic OG card;
+the app continues to enforce profile visibility.
+
+Older path-style links continue through the 404 fallback and can open the app.
+Their 404 HTML includes one generic FittMatch card; Pages cannot choose three
+server-rendered cards by an arbitrary path. Some sharing services may reject or
+cache 404 previews, so new links must use the 200-status landing pages.
+
+Run `node scripts/build-generic-share-pages.mjs` with Sharp available (or
+`SHARE_CARD_SHARP_MODULE`) to regenerate all generic pages/cards. Stock photography
+is illustrative. `/examples/generic-sharing/` previews the cards and is noindex.
+Run `node share-link.test.cjs` to verify routes, metadata and identifiers.
+
+The earlier personalized examples and optional dynamic service remain below for
+reference; they are not required for the generic GitHub Pages strategy.
+
 # Profile and listing sharing cards
 
 `share-cards.mjs` accepts a coach, job, or client public data record using the
