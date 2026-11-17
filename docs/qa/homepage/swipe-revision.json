@@ -1,0 +1,19 @@
+{
+  "revision": "Swipe-first messaging",
+  "date": "2026-11-03",
+  "story_structure": "Three main steps per audience: Browse, Swipe right, Connect; two supporting cards per audience.",
+  "native_preview": "Real coach right swipe; 2.2 seconds, gesture slowed 6x for readability; native UI unchanged.",
+  "verified": [
+    "Coach pause/resume controls",
+    "Hiring selection pauses hidden previews",
+    "Three chapters and two supporting cards for both audiences",
+    "No horizontal overflow at 320, 390 and 768 pixels on coach; 390 on hiring",
+    "JavaScript syntax checks",
+    "Homepage build",
+    "Existing share-link checks",
+    "Local image/video references and video capture/export hashes",
+    "git diff --check"
+  ],
+  "motion_review": "Reduced-motion preference prevents automatic playback; explicit play remains available. Offscreen and hidden previews are paused by implementation. OS motion preference was not changed during this revision.",
+  "publication": "Local preview only; not published."
+}

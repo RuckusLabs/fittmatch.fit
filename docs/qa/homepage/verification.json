@@ -1,0 +1,375 @@
+{
+  "date": "2026-11-03",
+  "website": "fittmatch.fit",
+  "publication": "Local preview only",
+  "browserObservations": [
+    {
+      "label": "Shared introduction, desktop",
+      "audience": "shared",
+      "brokenImages": [],
+      "chapters": 0,
+      "headings": [
+        "Your next great fit starts here."
+      ],
+      "height": 1000,
+      "overflow": false,
+      "scrollY": 0,
+      "selected": [],
+      "stories": [],
+      "title": "FittMatch — Fitness Jobs & Coach Hiring",
+      "width": 1440
+    },
+    {
+      "label": "Coach selection, desktop",
+      "audience": "coach",
+      "brokenImages": [],
+      "chapters": 4,
+      "headings": [
+        "Find coaching work that fits your life."
+      ],
+      "height": 1000,
+      "overflow": false,
+      "scrollY": 0,
+      "selected": [
+        "coach",
+        "coach",
+        "coach"
+      ],
+      "stories": [
+        "coach"
+      ],
+      "title": "FittMatch — Find Your Next Fitness Role",
+      "width": 1440
+    },
+    {
+      "label": "Hiring selection, desktop",
+      "audience": "client",
+      "brokenImages": [],
+      "chapters": 4,
+      "headings": [
+        "Find the coach your team needs."
+      ],
+      "height": 1000,
+      "overflow": false,
+      "scrollY": 0,
+      "selected": [
+        "client",
+        "client",
+        "client"
+      ],
+      "stories": [
+        "client"
+      ],
+      "title": "FittMatch — Find Your Next Great Coach",
+      "width": 1440
+    },
+    {
+      "label": "Hiring story at reading position",
+      "audience": "client",
+      "brokenImages": [],
+      "chapters": 4,
+      "headings": [
+        "Find the coach your team needs."
+      ],
+      "height": 1000,
+      "overflow": false,
+      "scrollY": 0,
+      "selected": [
+        "client",
+        "client",
+        "client"
+      ],
+      "stories": [
+        "client"
+      ],
+      "title": "FittMatch — Find Your Next Great Coach",
+      "width": 1440
+    },
+    {
+      "label": "Switch preserves reading position",
+      "audience": "coach",
+      "brokenImages": [],
+      "chapters": 4,
+      "headings": [
+        "Find coaching work that fits your life."
+      ],
+      "height": 1000,
+      "overflow": false,
+      "scrollY": 2000,
+      "selected": [
+        "coach",
+        "coach",
+        "coach"
+      ],
+      "stories": [
+        "coach"
+      ],
+      "title": "FittMatch — Find Your Next Fitness Role",
+      "width": 1440
+    },
+    {
+      "label": "Back restores hiring story",
+      "audience": "client",
+      "brokenImages": [],
+      "chapters": 4,
+      "headings": [
+        "Find the coach your team needs."
+      ],
+      "height": 1000,
+      "overflow": false,
+      "scrollY": 2000,
+      "selected": [
+        "client",
+        "client",
+        "client"
+      ],
+      "stories": [
+        "client"
+      ],
+      "title": "FittMatch — Find Your Next Great Coach",
+      "width": 1440
+    },
+    {
+      "label": "Forward restores coach story",
+      "audience": "coach",
+      "brokenImages": [],
+      "chapters": 4,
+      "headings": [
+        "Find coaching work that fits your life."
+      ],
+      "height": 1000,
+      "overflow": false,
+      "scrollY": 2000,
+      "selected": [
+        "coach",
+        "coach",
+        "coach"
+      ],
+      "stories": [
+        "coach"
+      ],
+      "title": "FittMatch — Find Your Next Fitness Role",
+      "width": 1440
+    },
+    {
+      "label": "All hiring story images loaded",
+      "audience": "client",
+      "brokenImages": [],
+      "chapters": 4,
+      "headings": [
+        "Find the coach your team needs."
+      ],
+      "height": 1000,
+      "overflow": false,
+      "scrollY": 6047,
+      "selected": [
+        "client",
+        "client",
+        "client"
+      ],
+      "stories": [
+        "client"
+      ],
+      "title": "FittMatch — Find Your Next Great Coach",
+      "width": 1440
+    },
+    {
+      "label": "Coach direct link, mobile 390",
+      "audience": "coach",
+      "brokenImages": [],
+      "chapters": 4,
+      "headings": [
+        "Find coaching work that fits your life."
+      ],
+      "height": 844,
+      "overflow": false,
+      "scrollY": 0,
+      "selected": [
+        "coach",
+        "coach",
+        "coach"
+      ],
+      "stories": [
+        "coach"
+      ],
+      "title": "FittMatch — Find Your Next Fitness Role",
+      "width": 390
+    },
+    {
+      "label": "Keyboard audience selection on mobile",
+      "audience": "client",
+      "brokenImages": [],
+      "chapters": 4,
+      "headings": [
+        "Find the coach your team needs."
+      ],
+      "height": 844,
+      "overflow": false,
+      "scrollY": 0,
+      "selected": [
+        "client",
+        "client",
+        "client"
+      ],
+      "stories": [
+        "client"
+      ],
+      "title": "FittMatch — Find Your Next Great Coach",
+      "width": 390
+    },
+    {
+      "label": "Shared introduction at 320px",
+      "audience": "shared",
+      "brokenImages": [],
+      "chapters": 0,
+      "headings": [
+        "Your next great fit starts here."
+      ],
+      "height": 812,
+      "overflow": false,
+      "scrollY": 0,
+      "selected": [],
+      "stories": [],
+      "title": "FittMatch — Fitness Jobs & Coach Hiring",
+      "width": 320
+    },
+    {
+      "label": "Hiring direct link, tablet",
+      "audience": "client",
+      "brokenImages": [],
+      "chapters": 4,
+      "headings": [
+        "Find the coach your team needs."
+      ],
+      "height": 1024,
+      "overflow": false,
+      "scrollY": 0,
+      "selected": [
+        "client",
+        "client",
+        "client"
+      ],
+      "stories": [
+        "client"
+      ],
+      "title": "FittMatch — Find Your Next Great Coach",
+      "width": 768
+    },
+    {
+      "label": "200% reflow equivalent, 720 CSS pixels",
+      "audience": "client",
+      "brokenImages": [],
+      "chapters": 4,
+      "headings": [
+        "Find the coach your team needs."
+      ],
+      "height": 500,
+      "overflow": false,
+      "scrollY": 0,
+      "selected": [
+        "client",
+        "client",
+        "client"
+      ],
+      "stories": [
+        "client"
+      ],
+      "title": "FittMatch — Find Your Next Great Coach",
+      "width": 720
+    },
+    {
+      "label": "Script-free fallback rendering",
+      "chapters": 8,
+      "choicesHidden": true,
+      "fullSizeLinks": 8,
+      "overflow": false,
+      "scripts": 0,
+      "stories": [
+        "coach",
+        "client"
+      ],
+      "width": 390
+    },
+    {
+      "label": "Stable reading-position check",
+      "before": 1748,
+      "after": 1236,
+      "passed": false,
+      "note": "The automated locator scrolled before dispatching the click. A subsequent coordinate click on the visible sticky control preserved 2000px exactly."
+    },
+    {
+      "label": "Final hiring desktop after refresh",
+      "audience": "client",
+      "brokenImages": [],
+      "chapters": 4,
+      "headings": [
+        "Find the coach your team needs."
+      ],
+      "height": 1000,
+      "overflow": false,
+      "scrollY": 0,
+      "selected": [
+        "client",
+        "client",
+        "client"
+      ],
+      "stories": [
+        "client"
+      ],
+      "title": "FittMatch — Find Your Next Great Coach",
+      "width": 1440
+    },
+    {
+      "label": "Audience switch by visible sticky control",
+      "before": 2000,
+      "after": 2000,
+      "passed": true
+    }
+  ],
+  "checks": {
+    "sharedIntroduction": true,
+    "roleSpecificHeroesStoriesFaqsAndCtas": true,
+    "directLinksAndReload": true,
+    "backAndForward": true,
+    "keyboardAudienceSelection": true,
+    "mobileMenuAndEscape": true,
+    "dialogFocusEscapeAndRestoration": true,
+    "nativeCaptures": 8,
+    "statusBars": "9:41, light appearance; native geometry preserved",
+    "responsiveAssetsExist": true,
+    "sourceCaptureHashesVerified": true,
+    "staticBuildReproducible": true,
+    "sharingChecks": [
+      "share-link.test.cjs",
+      "check-share-cards.mjs",
+      "check-web-profiles.mjs",
+      "check-share-media.mjs"
+    ],
+    "javascriptSyntax": true,
+    "diffWhitespace": true
+  },
+  "verificationLimits": [
+    "200% layout reflow was checked at a 720 CSS-pixel viewport, equivalent to a 1440px viewport at 200%; an actual browser zoom setting was not used.",
+    "The script-free fallback was rendered by a local QA response that removes scripts and unwraps the exact noscript fallback. Both stories and all eight full-size image links remained available.",
+    "Reduced-motion support was checked in the parsed CSS media rule; the operating system preference was not changed.",
+    "Applicant details returned a loading error during native capture. The working job overview with the fictional pipeline count is shown instead."
+  ],
+  "resources": [
+    {
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "applied": "Audience positioning, benefit-led copy, supported claims, clear beta conversion actions."
+    },
+    {
+      "url": "https://github.com/msitarzewski/agency-agents/blob/main/design/design-visual-storyteller.md",
+      "applied": "Connected fictional characters, beginning-to-next-step narrative, real screen evidence."
+    },
+    {
+      "url": "https://github.com/anthropics/skills/tree/main/skills/frontend-design",
+      "applied": "Intentional brand evolution, typography, product-specific visual composition."
+    },
+    {
+      "url": "https://github.com/vercel-labs/web-interface-guidelines",
+      "applied": "Keyboard controls, focus states, progressive enhancement, dimensions, reduced motion."
+    }
+  ]
+}

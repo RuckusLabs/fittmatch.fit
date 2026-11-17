@@ -1,0 +1,215 @@
+{
+  "captured_at": "2026-11-03",
+  "app_source": "Native QA screenshots captured November 3, 2026. Current workspace JavaScript bundled against native base build 100 for the refreshed captures.",
+  "illustrative": true,
+  "people": [
+    "Harper Chen (fictional coach)",
+    "Buckeye Movement Lab (fictional employer)"
+  ],
+  "status_bar": {
+    "time": "9:41",
+    "appearance": "light",
+    "wifi": "active, full strength",
+    "battery": "100%, discharging where shown",
+    "method": "Native simctl status-bar override; no screen content retouched"
+  },
+  "frames": {
+    "iphone": "/Users/makistudio/Downloads/ios devices/iPhone 18 Pro.png",
+    "duo": "/Users/makistudio/Downloads/ios devices/iPhone Duo/Inner - Landscape.png"
+  },
+  "composition": "Native screens and supplied WebP frames layered in CSS. SVG mask removes the Duo frame interior, including its baked status display. Screens retain one native status display.",
+  "assets": [
+    {
+      "id": "coach-job",
+      "audiences": [
+        "coach"
+      ],
+      "device": "iPhone 18 Pro",
+      "source_capture": "assets/product/captures/coach-job.png",
+      "sha256": "1dccd467ee4a3193a0021548569390d333173c6c00552745af1033f36a72ed86",
+      "native_size": [
+        1206,
+        2622
+      ],
+      "exports": [
+        "coach-job-600.webp",
+        "coach-job-1200.webp",
+        "coach-job-full.webp"
+      ],
+      "status_bar_verified": true,
+      "verified_at": "2026-11-03"
+    },
+    {
+      "id": "coach-profile",
+      "audiences": [
+        "coach",
+        "client"
+      ],
+      "device": "iPhone 18 Pro",
+      "source_capture": "assets/product/captures/coach-profile.png",
+      "sha256": "1547c7ad25269dd5e23f823e0b136838cf9cf96993e5fddeb2109f57028e2c04",
+      "native_size": [
+        1206,
+        2622
+      ],
+      "exports": [
+        "coach-profile-600.webp",
+        "coach-profile-1200.webp",
+        "coach-profile-full.webp"
+      ],
+      "status_bar_verified": true,
+      "verified_at": "2026-11-03"
+    },
+    {
+      "id": "client-profile",
+      "audiences": [
+        "client"
+      ],
+      "device": "iPhone 18 Pro",
+      "source_capture": "assets/product/captures/client-profile.png",
+      "sha256": "f41542e4577bb45b0991682d6f1eb76a4bf915cccd643fc99757dd6e1ff12d35",
+      "native_size": [
+        1206,
+        2622
+      ],
+      "exports": [
+        "client-profile-600.webp",
+        "client-profile-1200.webp",
+        "client-profile-full.webp"
+      ],
+      "status_bar_verified": true,
+      "verified_at": "2026-11-03"
+    },
+    {
+      "id": "client-discover-duo",
+      "audiences": [
+        "client"
+      ],
+      "device": "iPhone Duo, open",
+      "source_capture": "assets/product/captures/client-discover-duo.png",
+      "sha256": "d762c50279f2533baa95d37b07f1346469399eeb4279f36fee4d58335a4fda67",
+      "native_size": [
+        2853,
+        2007
+      ],
+      "exports": [
+        "client-discover-duo-600.webp",
+        "client-discover-duo-1200.webp",
+        "client-discover-duo-2000.webp",
+        "client-discover-duo-full.webp"
+      ],
+      "status_bar_verified": true,
+      "verified_at": "2026-11-03"
+    },
+    {
+      "id": "coach-chat-duo",
+      "audiences": [
+        "coach"
+      ],
+      "device": "iPhone Duo, open",
+      "source_capture": "assets/product/captures/coach-chat-duo.png",
+      "sha256": "33534694cabb0fd76f5abbe89ac51cc90c434b2839c2e3bf0bda3c806ae783b9",
+      "native_size": [
+        2853,
+        2007
+      ],
+      "exports": [
+        "coach-chat-duo-600.webp",
+        "coach-chat-duo-1200.webp",
+        "coach-chat-duo-2000.webp",
+        "coach-chat-duo-full.webp"
+      ],
+      "status_bar_verified": true,
+      "verified_at": "2026-11-03"
+    },
+    {
+      "id": "client-chat-duo",
+      "audiences": [
+        "client"
+      ],
+      "device": "iPhone Duo, open",
+      "source_capture": "assets/product/captures/client-chat-duo.png",
+      "sha256": "75f7642fe4fa3ac1903f2cbca08658e2d54ef70a838e637ddb727d8fc7290e77",
+      "native_size": [
+        2853,
+        2007
+      ],
+      "exports": [
+        "client-chat-duo-600.webp",
+        "client-chat-duo-1200.webp",
+        "client-chat-duo-2000.webp",
+        "client-chat-duo-full.webp"
+      ],
+      "status_bar_verified": true,
+      "verified_at": "2026-11-03",
+      "capture_source_note": "Native capture taken before the local bundle refresh and before the demo application was added; conversation layout reviewed against the current source."
+    },
+    {
+      "id": "coach-activity",
+      "audiences": [
+        "coach"
+      ],
+      "device": "iPhone 18 Pro",
+      "source_capture": "assets/product/captures/coach-activity.png",
+      "sha256": "2f8c547e48f111166ae7ed36689ad1740910fd7ca1df20f6d9d2c355970b3b44",
+      "native_size": [
+        1206,
+        2622
+      ],
+      "exports": [
+        "coach-activity-600.webp",
+        "coach-activity-1200.webp",
+        "coach-activity-full.webp"
+      ],
+      "status_bar_verified": true,
+      "verified_at": "2026-11-03",
+      "screen": "Job details with Applied status for the same Recovery & Mobility Coach opportunity"
+    },
+    {
+      "id": "client-pipeline-duo",
+      "audiences": [
+        "client"
+      ],
+      "device": "iPhone Duo, open",
+      "source_capture": "assets/product/captures/client-pipeline-duo.png",
+      "sha256": "16bd7d4c2877608b61c287eb2f770b740343cf564d6d0bc4db891b6974a8e239",
+      "native_size": [
+        2853,
+        2007
+      ],
+      "exports": [
+        "client-pipeline-duo-600.webp",
+        "client-pipeline-duo-1200.webp",
+        "client-pipeline-duo-2000.webp",
+        "client-pipeline-duo-full.webp"
+      ],
+      "status_bar_verified": true,
+      "verified_at": "2026-11-03"
+    }
+  ],
+  "demo_changes": [
+    "Replaced testing jargon in the verified fictional Harper and Buckeye profile biographies and Buckeye job descriptions with illustrative demo labels.",
+    "Used the native Like action to create Harper\u2019s fictional application to Buckeye\u2019s Recovery & Mobility Coach role.",
+    "No account permissions, Pro entitlements, or pricing were changed."
+  ],
+  "motion_preview": {
+    "file": "assets/product/swipe-right.mp4",
+    "source_capture": "assets/product/captures/swipe-right-source.mp4",
+    "source_sha256": "0f82d3a17be12b8e3422fcec6373b10ae5a53186debf629f8eaadd4cc83b4560",
+    "export_sha256": "ea9055750347c5750d78ee1a4f7137a835fe8d01a4321be496fdefe33325087f",
+    "audiences": [
+      "shared",
+      "coach"
+    ],
+    "source_duration_seconds": 12.3083333333,
+    "duration_seconds": 2.2,
+    "native_size": [
+      1206,
+      2622
+    ],
+    "status_bar_verified": true,
+    "time": "9:41",
+    "editing": "Trimmed around the real right swipe. The native gesture frames are slowed six times for readability; no app UI is redrawn. The empty-state ending is excluded.",
+    "fixture_result": "Harper\u2019s Recovery & Mobility Coach application restored to Applied by the recorded native gesture."
+  }
+}
